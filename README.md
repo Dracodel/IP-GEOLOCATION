@@ -1,7 +1,8 @@
 # IP-GEOLOCATION
 Una simple tool de IP geolocation programada en Pyhton
 
-# Instalación
+# Instalación y Uso
 $ git clone https://github.com/Dracodel/IP-WHOIS
 
-$ python3 ipgeo.py
+$ python3 ipgeo.py -t "ip"
+
