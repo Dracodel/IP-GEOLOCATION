@@ -13,7 +13,7 @@ parser.add_argument("-t", help="Ip objetivo", type=str, dest='target', required=
 args = parser.parse_args()
 # clear
 os.system('clear')
-print(bold+cyan+"""
+print("
 
 ██╗██████╗░░░░░░░░██████╗░███████╗░█████╗░
 ██║██╔══██╗░░░░░░██╔════╝░██╔════╝██╔══██╗
