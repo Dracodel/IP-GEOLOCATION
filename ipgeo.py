@@ -33,7 +33,7 @@ print(bold+blue+"""
         
    
 """+clear)
-print(red+bold+"Created by Dracodel\n"+clear)
+print(red+bold+"Created by Drakodel\n"+clear)
 
 ip = args.target
 api = "http://ip-api.com/json/"
