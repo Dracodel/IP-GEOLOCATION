@@ -6,3 +6,5 @@ $ git clone https://github.com/Dracodel/IP-WHOIS
 
 $ python3 ipgeo.py -t "ip"
 
+"$ python3 ipgeo.py -h" for help
+
