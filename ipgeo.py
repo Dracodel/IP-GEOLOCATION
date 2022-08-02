@@ -33,7 +33,7 @@ print(bold+blue+"""
         
    
 """+clear)
-print(red+bold+"Created by Dracodel[\n"+clear)
+print(red+bold+"Created by Dracodel\n"+clear)
 
 ip = args.target
 api = "http://ip-api.com/json/"
@@ -43,16 +43,15 @@ try:
         sys.stdout.flush()
         a = green+bold+"[~]"
         # Printing,Not Phising ; P
-        print(a, "Target:", data['query'])
+        print(a, "Direccion IP:", data['query'])
         print(a, "ISP:", data['isp'])
+        print(a, "Ciudad:", data['city'])
         print(a, "Organisation:", data['org'])
-        print(a, "City:", data['city'])
-        print(a, "Region:", data['region'])
-        print(a, "Region name:", data['regionName'])
+        print(a, "Region:", data['regionName'])
         print(a, "Latitude:", data['lat'])
         print(a, "Longitude:", data['lon'])
         print(a, "Timezone:", data['timezone'])
-        print(a, "Zip code:", data['zip'])
+        print(a, "Codigo Postal:", data['zip'])
         print(" "+clear)
 # Exit
 except KeyboardInterrupt:
